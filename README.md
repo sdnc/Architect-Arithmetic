@@ -6,3 +6,7 @@ The specific dimensions for the floor plans can be found below. Price per tile h
 
 Clone repository and run *dotnet run* in terminal.
 
+![The Great Mosque of Mecca dimensions](img/greatmosque-complete.svg)
+
+
+
