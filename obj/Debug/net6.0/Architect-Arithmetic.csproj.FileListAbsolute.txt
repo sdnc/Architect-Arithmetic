@@ -1,0 +1,15 @@
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.csproj.AssemblyReference.cache
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.AssemblyInfoInputs.cache
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.AssemblyInfo.cs
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.csproj.CoreCompileInputs.cache
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/bin/Debug/net6.0/Architect-Arithmetic
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/bin/Debug/net6.0/Architect-Arithmetic.deps.json
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/bin/Debug/net6.0/Architect-Arithmetic.runtimeconfig.json
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/bin/Debug/net6.0/Architect-Arithmetic.dll
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/bin/Debug/net6.0/ref/Architect-Arithmetic.dll
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/bin/Debug/net6.0/Architect-Arithmetic.pdb
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.dll
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/ref/Architect-Arithmetic.dll
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.pdb
+/Users/saruna/Projects/MINI_PROGRAMS/Architect-Arithmetic/obj/Debug/net6.0/Architect-Arithmetic.genruntimeconfig.cache
