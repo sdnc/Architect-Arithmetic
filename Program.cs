@@ -17,12 +17,13 @@ namespace ArchitectArithmetic
         string currency;
 
         Console.WriteLine("Welcome to Architect Arithmetic - a program that calculates the total cost of a floor plan depending on the rooms dimensions.");
-        Console.WriteLine("What kind of area do you want to calculate? \n 1: A rectangle \n 2: A circle \n 3: A triangle \n 4: The Teotihuacan \n 5: The Taj Mahal \n 6: The Great Mosque of Mecca \n");
+        Console.WriteLine("What kind of area do you want to calculate? \n 1: A rectangle \n 2: A circle \n 3: A triangle \n 4: The Teotihuacan \n 5: The Taj Mahal \n 6: The Great Mosque of Mecca \n 7: The Pantheon \n");
         Console.Write("Pick a number: ");
         option = Int32.Parse(Console.ReadLine());
-        while (option < 1 || option > 6)
+        while (option < 1 || option > 7)
         {
             Console.WriteLine("Sorry, that's not an option. Try again.");
+            Console.Write("Pick a number: ");
             option = Int32.Parse(Console.ReadLine());
         }
         Console.Write("\nWhat currency are you calculating in? ");
@@ -87,7 +88,7 @@ namespace ArchitectArithmetic
             double totalCost = TajMahalTotalArea() * tilePrice;
             totalCost = Math.Round(totalCost, 2);
 
-            Console.WriteLine($"\nThe total cost of a Taj Mahal floor plan plan would be {totalCost} {currency}\n");
+            Console.WriteLine($"\nThe total cost of a Taj Mahal floor plan would be {totalCost} {currency}\n");
             return totalCost;
 
         }
@@ -97,6 +98,14 @@ namespace ArchitectArithmetic
             totalCost = Math.Round(totalCost, 2);
 
             Console.WriteLine($"\nThe total cost of a Mecca floor plan would be {totalCost} {currency}\n");
+            return totalCost;
+        }
+        else if (option == 7) //Pantheon
+        {
+            double totalCost = PantheonTotalArea() * tilePrice;
+            totalCost = Math.Round(totalCost, 2);
+
+            Console.WriteLine($"\nThe total cost of a Pantheon floor plan would be {totalCost} {currency}\n");
             return totalCost;
         }
         else
@@ -132,6 +141,14 @@ namespace ArchitectArithmetic
         double extraRoom = Rect(180, 106);
         double emptySpace = Triangle(264, 84);
         return baseFloor + extraRoom - emptySpace;
+    }
+
+    static double PantheonTotalArea()
+    {
+        double rectangleRoom = Rect(15, 18);
+        double roundRoom = Circle(21.5);
+
+        return rectangleRoom + roundRoom;
     }
     static double Rect(double length, double width)
     {
