@@ -6,6 +6,3 @@ The specific dimensions for the floor plans can be found below. Price per tile h
 
 Clone repository and run *dotnet run* in terminal.
 
-greatmosque-complete.svg
-tajmahal-complete.svg
-teotihuacan-complete.svg
